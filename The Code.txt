@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-The Python is a program language.
-=======
-HP - The Function
->>>>>>> HP
+Main - The Python is a program language.
