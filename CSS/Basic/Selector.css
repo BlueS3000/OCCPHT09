@@ -1,0 +1,74 @@
+/* Element Selector */
+span {
+    color:blue;
+}
+
+/* Class Selector */
+.class-name {
+    color:aqua;
+}
+
+/* ID Selector */
+#id-name {
+    color:orange;
+}
+
+/* Universal Selector */
+* {
+    color:pink;
+    font-size: 25px;
+}
+
+/* Attribute Selector */
+a[href] {
+    color:purple;
+}
+
+a[href="www.sample.com"] {
+    color:green;
+}
+
+/* Grouping Selector */
+h1, parag, h2{
+    color:brown;
+}
+
+/* Descendant Selector */
+.ancestor h3 {
+    color: tomato;
+}
+
+.ancestor p {
+    color:yellow;
+}
+
+.ancestor p[class="second"]{
+    color:black;
+}
+
+/* Pseudo Selector */
+button:hover {
+    background-color:black;
+    color:white;
+}
+
+a[href="https://www.example.com"]:visited {
+    color:pink;
+}
+
+/* Pseudo Elements */
+#pseudo-element::before {
+    content:"This is a pragraph before before h3.";
+    color:black;
+}
+
+#pseudo-element::after {
+    content:"This is a pragraph after h3.";
+    color: yellow;
+}
+
+/* Inline Styles (highest specificity)
+ID Selectors
+Class, Attribute, Pseudo-Class Selectors (equal specificity)
+Element Type, Pseudo-Element Selectors (equal specificity)
+Universal Selector (*) (lowest specificity)*/

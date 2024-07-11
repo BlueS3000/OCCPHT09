@@ -1,0 +1,28 @@
+body {
+    background-color: beige;
+    background-image: url("jacob-vizek-FCSQRPEtXVI-unsplash.jpg");
+}
+
+.color-example {
+    color: rgba(0, 0, 255, 0.5);
+}
+
+.background-example {
+    background-color: beige;
+}
+
+.background-image {
+    background-image: url("jacob-vizek-FCSQRPEtXVI-unsplash.jpg");
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+}
+
+.image-sizing-example {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}

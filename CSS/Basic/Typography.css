@@ -1,0 +1,54 @@
+/* Naming Convention
+Camel Casing: fontFamilySize
+Khebab Casing: font-family-size
+*/
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap);
+
+.font-family-size {
+    font-family:'Open Sans';
+    font-size:20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20px;
+    border: 1px solid;
+}
+
+.letter-spacing {
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-indent: 5px;
+}
+
+.text-shadow {
+    /*First Value: Horizontal
+    Second Value: Vertical
+    Third Value: The Blur Effect
+    Fourth Value: The Color*/
+    text-shadow: 10px 4px 4px blue;
+}
