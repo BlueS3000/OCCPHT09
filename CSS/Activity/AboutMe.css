@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+    background-color: #F5F5DC;
+}
+
+.Title {
+    background-color: #6A7D8E;
+    color: white;
+    font-family: 'Marvel';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+.IntroductionT {
+    color: black;
+    font-family: 'Marvel';
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 150px;
+    text-align: center;
+}
+
+.Introduction {
+    color: black;
+    font-family: 'Marvel';
+    font-size: 24px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.TList {
+    color: black;
+    font-family: 'Marvel';
+    font-size: 24px;
+    text-align: center;
+}
+
+#Column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#Column span {
+    color: black;
+    font-family: 'Marvel';
+    font-size: 24px;
+    margin: 25px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+
+.Footer {
+    background-color: #6A7D8E;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 500px;
+    line-height: 100px;
+    text-align: center;
+}
