@@ -46,9 +46,9 @@ Khebab Casing: font-family-size
 }
 
 .text-shadow {
-    /*First Value: Horizontal
+    /* First Value: Horizontal
     Second Value: Vertical
     Third Value: The Blur Effect
-    Fourth Value: The Color*/
+    Fourth Value: The Color */
     text-shadow: 10px 4px 4px blue;
 }

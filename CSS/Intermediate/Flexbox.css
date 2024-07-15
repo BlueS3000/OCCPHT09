@@ -1,0 +1,38 @@
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+
+.flexContainer {
+    align-items: end;
+    justify-content: end;
+}
+
+/* Flex grow */
+.flexItem1 {
+    flex-grow: 1;
+}
+
+.flexItem2 {
+    flex-grow: 2;
+}
+
+.flexItem3 {
+    flex-grow: 1;
+}
+
+/* Flex shrink */
+.flexItem1 {
+    flex-shrink: 1;
+}
+
+.flexItem2 {
+    flex-shrink: 0;
+}
+
+.flexItem3 {
+    flex-shrink: 1;
+}
